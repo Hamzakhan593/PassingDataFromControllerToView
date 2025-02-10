@@ -1,0 +1,35 @@
+﻿
+@* @{
+    foreach (var item in (string[])ViewData["data1"]){
+    <h1>@item</h1>
+    }
+}
+
+@{
+    foreach (var item in (List<string>)ViewData["data2"])
+    {
+        <h1>@item</h1>
+    }
+} *@
+
+@* <h1>@ViewBag.data1</h1> *@
+
+@* @{
+    foreach(var item in ViewBag.data2)
+    {
+        <h1>@item</h1>
+    }
+} *@
+
+@* @{
+    foreach(var item in ViewBag.data3)
+    {
+        <h1>@item</h1>
+    }
+} *@
+
+@* <h1>@TempData["data1"]</h1> *@
+
+
+
+
